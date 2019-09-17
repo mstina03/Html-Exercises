@@ -12,12 +12,13 @@ h1 {
     background-color: rgb(224, 12, 224);
     text-align: center;
     color: black;
-    font-size: 3em;
+    font-size: 2em;
     padding: 0px;
 }
 
 h2 {
     color: black;
+    text-align: center;
 }
 
 img {
@@ -25,11 +26,11 @@ img {
 }
 
 p {
-    background-color: rgb(29, 7, 226);
+    background-color: blue;
     text-align: center;
     color: white;
-    padding: 0px;
-    font-size: 2em;
+    padding: 20px;
+    font-size: 1.5em;
 }
 
 section {
@@ -46,11 +47,17 @@ article {
     border-width: 5px;
     border-color:black;
     border-style: inset solid;
+    text-align: center;
 }
-img{
-    background-color: lavenderblush;
-    border-width: 5px;
-    border-color:black;
-    border-style: inset solid;
+
+nav {
+    display: flex;
+}
+
+nav>article {
+    flex: 1;
+}
+div{
+    text-align: center;
 }
 
