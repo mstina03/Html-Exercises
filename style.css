@@ -40,9 +40,15 @@ section {
 }
 
 article {
-    background-color: thistle;
+    background-color: violet;
     padding: 20px;
     margin: 20px;
+    border-width: 5px;
+    border-color:black;
+    border-style: inset solid;
+}
+img{
+    background-color: lavenderblush;
     border-width: 5px;
     border-color:black;
     border-style: inset solid;
