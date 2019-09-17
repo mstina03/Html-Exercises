@@ -1,2 +1,2 @@
 # Html-Exercises
-HTML exercises from course 
+Practice HTML exercises from course 
