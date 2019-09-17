@@ -9,11 +9,14 @@ body {
 }
 
 h1 {
-    background-color: rgb(224, 12, 224);
+    background-color:gainsboro;
     text-align: center;
-    color: black;
+    color:black;
     font-size: 2em;
-    padding: 0px;
+    padding: 20px;
+    border-width: 5px;
+    border-color:black;
+    border-style: inset solid;
 }
 
 h2 {
@@ -23,14 +26,7 @@ h2 {
 
 img {
     height: 250px;
-}
-
-p {
-    background-color: blue;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    font-size: 1.5em;
+    
 }
 
 section {
@@ -40,8 +36,14 @@ section {
     
 }
 
+.child{
+    
+    
+    background-color: gainsboro;
+}
 article {
-    background-color: violet;
+    
+    background-color: lavenderblush;
     padding: 20px;
     margin: 20px;
     border-width: 5px;
