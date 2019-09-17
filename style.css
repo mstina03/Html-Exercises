@@ -1,9 +1,11 @@
 body {
     background-color: rgb(255, 255, 255);
-    
     font-family: Arial;
-    padding: 0;
-    margin: 0;
+    padding: 20px;
+    margin: 20;
+    border-width: 5px;
+    border-color:black;
+    border-style: inset solid;
 }
 
 h1 {
@@ -12,16 +14,16 @@ h1 {
     color: black;
     font-size: 3em;
     padding: 0px;
-    
 }
+
 h2 {
     color: black;
-    
-    
 }
+
 img {
     height: 250px;
 }
+
 p {
     background-color: rgb(29, 7, 226);
     text-align: center;
@@ -29,3 +31,20 @@ p {
     padding: 0px;
     font-size: 2em;
 }
+
+section {
+    padding: 20px;
+    margin: 20px;
+    color: blue;
+    
+}
+
+article {
+    background-color: thistle;
+    padding: 20px;
+    margin: 20px;
+    border-width: 5px;
+    border-color:black;
+    border-style: inset solid;
+}
+
